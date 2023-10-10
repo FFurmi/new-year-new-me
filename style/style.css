@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header */
+header{
+    background: url('../images/banner/banner1.png');
+    text-align: right;
+    padding: 100px 200px;
+    display: flex;
+    justify-content:flex-end;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner{
+    width: 500px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.banner-btn{
+    border-radius: 5px;
+    background: #F15B22;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 25px;
+}
+
+/*  main*/
+main{
+    padding: 0 150px;
+}
+section, footer{
+    margin-top: 130px;
+}
+
+/* Previous Year */
+
+.previous-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.previous-container > div:last-child{
+    padding: 50px;
+    align-items: center;   
+
+}
+.previous-item ul{
+    padding: 0;
+    
+}
+.previous-item ul li{
+    list-style: none;
+    margin-left: 0;
+    
+}
+
+.previous-item ul li:before {
+    content: '✓';
+    margin-right: 10px;
+    color: #16D887;
+  }
+
+  /* My plan */
+.my-plan{
+    
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* Keep positive */
+.Keep-positive{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 64px 59px;
+}
+.btn-secondary{
+    color: #F15B22;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+}
+
+/* Footer */
+footer{
+    padding: 100px 150px;
+    background: #000000;
+    color: #ffffff;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.footer-item{
+    padding: 0 50px;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.footer-sub-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-item input{
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px #ffffff solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    margin: 30px 0;
+}
+.footer-item img{
+    margin-left: 10px;
+}
