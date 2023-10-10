@@ -13,8 +13,6 @@ header{
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    width: 100%;
 }
 
 .banner{
@@ -122,7 +120,7 @@ footer{
     padding: 100px 150px;
     background: #000000;
     color: #ffffff;
-    width: 100%;
+    
 }
 .footer-container{
     display: flex;
