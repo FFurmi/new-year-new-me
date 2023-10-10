@@ -12,7 +12,8 @@ header{
     justify-content:flex-end;
     height: 500px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    
 }
 
 .banner{
